@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: GitHubRelease@1
+
   inputs:
     repositoryName: '$(Build.Repository.Name)'
     action: 'create'
@@ -11,7 +11,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
+#trigger:
 - main
 
 pool:
